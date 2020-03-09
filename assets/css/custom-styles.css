@@ -1,0 +1,112 @@
+/* 
+body {
+    font-family: "Open Sans", sans-serif;
+ 
+  }
+  
+  a {
+    color: #43aea0;
+  }
+  
+  a:hover {
+    color: #00d3b8;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .font-primary {
+    font-family: "Lato", sans-serif;
+  } */
+
+
+/* .big-banner{
+    background-image: url('../img/bald-eagle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+} */
+#banner {
+    width: 100%;
+    height: 80vh;
+    /* background: url("../img/bald-eagle.jpg") top center; */
+    background-image: url('../img/bald-eagle.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    /* margin-bottom: -25px; */
+  }
+  
+  /* #hero: {
+    content: "";
+    background: rgba(112, 185, 176, 0.85);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+
+  } */
+  .dark-overlay{
+    background-color: rgba(0,0,0,0.3);
+	position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #banner .banner-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    padding-top: 80px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  @media (max-width: 400px) {
+    #banner {
+        width: 100%;
+        height: 60vh;      
+        font-size: 25px;
+    }
+    h1, h2, h3, h4, h5, h6, .font-primary {
+        font-size: 20px;
+      }
+  }
+.main{
+    margin-top: 80px;
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+  section {
+
+    padding: 40px 0;
+  }
+  
+  .section-bg {
+    background-color: #f2f9f8;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: 300;
+    /* margin-bottom: 20px; */
+    padding-bottom: 0;
+    color: #555;
+  }
+  
+  .section-title p {
+    margin-bottom: 0;
+  }
+  

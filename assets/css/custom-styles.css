@@ -46,9 +46,9 @@
 }
 
 
-/* 
-body {
-    font-family: "Open Sans", sans-serif;
+ 
+ body {
+  font-family: 'Playfair Display', serif;
  
   }
   
@@ -62,8 +62,8 @@ body {
   }
   
   h1, h2, h3, h4, h5, h6, .font-primary {
-    font-family: "Lato", sans-serif;
-  } */
+    font-family: 'Playfair Display', serif;
+  }
 
 
 /* .big-banner{
@@ -82,7 +82,7 @@ body {
     position: relative;
     /* margin-bottom: -25px; */
   }
-  
+
   /* #hero: {
     content: "";
     background: rgba(112, 185, 176, 0.85);
@@ -94,7 +94,7 @@ body {
 
   } */
   .dark-overlay{
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.6);
 	  position: absolute;
     bottom: 0;
     top: 0;
@@ -123,6 +123,7 @@ body {
     }
     h1, h2, h3, h4, h5, h6, .font-primary {
         font-size: 20px;
+        
       }
   }
 .main{
@@ -143,18 +144,31 @@ body {
   
   .section-title {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: solid 1px;
   }
   
   .section-title h2 {
     font-size: 50px;
-    font-weight: 300;
+    font-weight: 500;
     margin: 20px 20px;
     padding-bottom: 0;
-    color: #555;
+    color:black;
   }
   
   .section-title p {
     margin-bottom: 0;
+    
   }
+
+  /* image rotation */
+
+  .rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
   

@@ -176,4 +176,10 @@
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
-  
+
+.img-gallery{
+  margin-top: 20px;
+  width: 300px;
+}
+
+
